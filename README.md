@@ -20,7 +20,7 @@
 
 ---
 
-|Modules | Information|
+|Information | Modules |
 |---|---|
 | Simple Regression | [Module 1](https://github.com/Amitha353/Machine-Learning-Regression/blob/master/Week%201%20-%20Simple%20Linear%20Regression.pdf) |
 | Multiple Regression | [Module 2](https://github.com/Amitha353/Machine-Learning-Regression/blob/master/Week%202%20-%20Multiple%20Regression.pdf) |
