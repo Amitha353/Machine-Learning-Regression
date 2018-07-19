@@ -22,7 +22,12 @@
 
 |Modules | Information|
 |---|---|
-|Simple Regression|  [Simple Regression ](https://github.com/Amitha353/Machine-Learning-Regression/blob/master/Week%201%20-%20Simple%20Linear%20Regression.pdf)|
+| Simple Regression | [Module 1](https://github.com/Amitha353/Machine-Learning-Regression/blob/master/Week%201%20-%20Simple%20Linear%20Regression.pdf) |
+| Multiple Regression | [Module 2](https://github.com/Amitha353/Machine-Learning-Regression/blob/master/Week%202%20-%20Multiple%20Regression.pdf) |
+| Assesing Performance | [Module 3](https://github.com/Amitha353/Machine-Learning-Regression/blob/master/Week%203%20-%20Assessing%20Performance.pdf) |
+| Ridge Regression | [Module 4](https://github.com/Amitha353/Machine-Learning-Regression/blob/master/Week%204%20-%20Ridge%20Regression.pdf) |
+| Feature Selection & Lasso | [Module 5](https://github.com/Amitha353/Machine-Learning-Regression/blob/master/Week%205%20-%20Feature%20Selection%20%26%20Lasso.pdf) |
+| Nearest Neighbor & Kernel Regression | [Module 6](https://github.com/Amitha353/Machine-Learning-Regression/blob/master/Week%206%20-%20Nearest%20Neighbors%20%26%20Kernel%20Regression.pdf) |
 ---
 ## Simple Regression
 * 1 input and fit a line to data. (intercept and the slope coefficients).
