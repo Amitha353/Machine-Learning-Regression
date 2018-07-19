@@ -80,7 +80,7 @@
 
 #### Ridge closed-form solution  -> complexity O(D^3);
 
-#### Cross-Validation
+### Cross-Validation
 * In case of insuuffient data to form a separate validation set.
 * Then perform k-fold cross validation.
 * Here the training set is divided into blocks and each block is treated as the validation set.
@@ -88,4 +88,37 @@
   - validation block the error is computed.
 * The average error across all validation set is computed.  
 
+---
+## Feature Selection & Lasso
+Various methods to search over models with different number of features.
+* **All Subset** - exhaustive approach, where feature combinations with least RSS is chosen.
+* **Greedy Algorithm** - forward selection - suboptimal solution but eventually provides the desired model set and is more efficient.
 
+#### Lasso objective function - L1 regularized regression
+* It leads to sparse solutions.
+* L1 norm = RSS(w) + lambda ||w||
+
+#### Coefficient path
+* Here the coefficient path becomes sparser with increasing lambda value. This provideds better feature solutions.
+
+### Coordinate Descent
+* Better model since it is difficult to find the derivate of an absolute value. Need to use sub-gradients, alternative is coordinate descent.
+* Iterate through the different dimensions of the objective or different features of the regression model.
+* The coefficients for lasso was setup based on "soft-thresholding" - provides sparse solutions.
+
+---
+## Nearest Neighbor & Kernel Regression - Nonparametric fits
+### 1-NN - simple procedure
+- Look for the most similar dataset observation and base the predictions on it.
+
+### Weighted k-NN
+- weigh the more similar observations more than those less similar in the list of k-NN.
+- Average across the rating to form the estimated prediction.
+
+### Kernel Regression
+* Weight all the points rather than just weighting NN.
+* The kernels have a bandwidth - lambda, outside which the observations are 0. Within the range/bandwidth also the observations can decay based on how far they are from the target point.
+* It leads to local constant fits.
+* Parametric fits -> global constant fits.
+
+---
