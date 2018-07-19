@@ -19,6 +19,11 @@
 7. Feature selection
 
 ---
+
+|Modules | Information|
+|---|---|
+|Simple Regression|  [Simple Regression ](https://github.com/Amitha353/Machine-Learning-Regression/blob/master/Week%201%20-%20Simple%20Linear%20Regression.pdf)|
+---
 ## Simple Regression
 * 1 input and fit a line to data. (intercept and the slope coefficients).
 
