@@ -1,5 +1,23 @@
 # Machine-Learning-Regression
 
+## MODELS
+1. Linear Regression - Simple and Multiple
+2. Regularization - Ridge (L2), Lasso (L1)
+3. Nearest neighbors and kernel regression
+
+## ALGORITHMS
+1. Gradient Descent
+2. Coordinate Descent
+
+## GENERAL CONCEPTS
+1. Loss function
+2. Bias-Variance Trade off
+3. Cross Validation
+4. Sparsity
+5. Overfitting
+6. Model selection
+7. Feature selection
+
 ---
 ## Simple Regression
 * 1 input and fit a line to data. (intercept and the slope coefficients).
