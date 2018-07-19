@@ -62,4 +62,30 @@
 * Model complexity increases -> bias decreases and variance increases.
 * Mean Square Error (MSE) = bias-variance tradeoff = bias^2 + variance.
 
+### Model selection and Assessment
+* Fit the model on the training data set.
+* Select between different models on the validation set.
+* Test the performance on the test data.
+
+---
+## Ridge Regression
+* As model complexity increases, the models become overfit.
+* Symptom of overfitting -> magnitude of coefficients increases.
+* It trades of between the bias and the variance.
+* Ridge total cost = measure of fit(RSS on training data) + measure of the magnitude of the coefficients.
+* It is the L2 regularization parameter = Rss(w) + lambda * ||w||^2
+
+#### Coefficient path
+* The magnitude of the coefficients decreases with increases in the tuning parameter "lambda".
+
+#### Ridge closed-form solution  -> complexity O(D^3);
+
+#### Cross-Validation
+* In case of insuuffient data to form a separate validation set.
+* Then perform k-fold cross validation.
+* Here the training set is divided into blocks and each block is treated as the validation set.
+  - training block -> parameters or coefficients are extimated.
+  - validation block the error is computed.
+* The average error across all validation set is computed.  
+
 
